@@ -1,4 +1,50 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+breadcrumbs: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/img/feature.jpg
+  cta_label: '<i class="fas fa-book"></i> Start Reading'
+  cta_url: /issues/
+  caption: "&copy;"
+excerpt: "Bingo. Rayquaza."
+
+feature_row:
+  - image_path: /assets/img/fiction1.jpg
+    alt: "fiction"
+    url: "/issue1/fiction/"
+    btn_class: "btn--primary"
+    btn_label: "Explore Fiction"
+    image_caption: "&copy;"
+  - image_path: /assets/img/nonfiction2.jpg
+    alt: "Non Fiction"
+    url: "/issue1/nonfiction/"
+    btn_class: "btn--primary"
+    btn_label: "Explore Non Fiction"
+    image_caption: "&copy;" 
+  - image_path: /assets/img/poetry3.jpg
+    alt: "Poetry"
+    url: "/issue1/poetry/"
+    btn_class: "btn--primary"
+    btn_label: "Explore Hardware"
+    image_caption: "&copy;"
+intro:
+  - excerpt: 'The first edition of my journal is out now. Keep reading to explore more.'
+  
 ---
+<style>
+    .page__hero--overlay {
+    padding: 12em 0 4em 0;
+    }
+    .archive__item-body p{
+    text-align: center;
+    padding-top: 1em;
+    }
+    .archive__item-caption{
+        font-size: .425em;
+    }
+</style>
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}

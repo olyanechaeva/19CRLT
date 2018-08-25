@@ -9,6 +9,9 @@
     {% if site.facebook.username %}
       <li><a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
     {% endif %}
+    {% if site.instagram.username %}
+      <li><a href="https://www.instagram.com/{{ site.instagram.username }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+    {% endif %}
     {% if site.author.github %}
       <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
@@ -22,4 +25,9 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">
+&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> <br>
+    Design by <a href="https://alokprateek.ml" target="_blank">Alok</a>.<br><br>
+    <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a><br>
+    <a href="{{ site.baseurl }}/tandc/">Terms of Service</a>
+</div>
