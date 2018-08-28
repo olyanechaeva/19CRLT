@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: single
 title: Plot Summary
 subtitle: Color Purple by Alice Walker
+
 ---
 
 ## First Period
