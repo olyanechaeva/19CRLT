@@ -22,7 +22,7 @@ description              : "Meteoric Teachings is a blog on programming, hardwar
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "oxyenyos/mmblog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/static/teaser.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -81,7 +81,9 @@ facebook:
   username               : "alokprateek"
   app_id                 : "1595859007382361"
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/static/logobg.jpg" # Open Graph/Twitter default site image
+instagram:
+  username               : "whitewulfy"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
