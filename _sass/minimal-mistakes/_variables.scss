@@ -13,12 +13,15 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Changa:400,700|Montserrat:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 
-$serif: "Changa", sans-serif !default;
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin-ext');
+
+$serif: "Encode Sans Condensed", sans-serif !default;
 $sans-serif: "Montserrat", sans-serif !default;
 $monospace: Consolas, "Lucida Console", monospace !default;
-$meteor-logo-font: 'Bungee Shade', cursive !default;
+$meteor-logo-font: 'Bungee Inline', cursive !default;
 $global-font-family: $sans-serif !default;
 $header-font-family: $serif !default;
 $caption-font-family: $sans-serif !default;
