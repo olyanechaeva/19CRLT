@@ -85,7 +85,7 @@ og_image                 : "/assets/static/logobg.jpg" # Open Graph/Twitter defa
 instagram:
   username               : "whitewulfy"
 # For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+# see- https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person # Person or Organization (defaults to Person)
   name                   : Alok Prateek # If the user or organization name differs from the site's name
