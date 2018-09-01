@@ -5,8 +5,9 @@
 /* Colors */
 $background-color: #141010 !default;
 $text-color: #fff6fb !default;
-$primary-color: #50c878 !default;
-$primary-color-dark: #27592d !default;
+$primary-color: #50c878 !default; //light emerald
+$primary-color-dark: #27592d !default; //dark emerald
+$primary-color-accent: #ffff00 !default;//golden yellow
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
