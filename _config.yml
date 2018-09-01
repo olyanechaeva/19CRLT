@@ -84,8 +84,6 @@ facebook:
 og_image                 : "/assets/static/logobg.jpg" # Open Graph/Twitter default site image
 instagram:
   username               : "whitewulfy"
-github:
-  username:              : "oxyenyos"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
