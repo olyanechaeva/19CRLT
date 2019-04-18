@@ -88,7 +88,7 @@ facebook:
   publisher              :
 og_image                 : "/assets/static/logobg.jpg" # Open Graph/Twitter default site image
 instagram:
-  username               : "whitewulfy"
+  username               : "thewhitewulfy"
 # For specifying social profiles
 # see- https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -120,10 +120,10 @@ author:
   facebook         : "alokprateek"
   foursquare       :
   github           : "oxyenyos"
-  gitlab           :
+  gitlab           : "TheWhiteWulfy"
   google_plus      :
   keybase          :
-  instagram        : "whitewulfy"
+  instagram        : "thewhitewulfy"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
