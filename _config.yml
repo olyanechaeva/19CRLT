@@ -135,8 +135,17 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : 
 
+
+
+collections:
+  work:
+    output: true
+    permalink: /:collection/:path/
+  repos:
+    output: true
+    permalink: /:collection/:path/  
 
 # Reading Files
 include:
@@ -289,3 +298,23 @@ defaults:
       share: false
       comments: false
       defaults:
+  # _work
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+  # _repos
+  - scope:
+      path: ""
+      type: repos
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: true
+      comments: true
