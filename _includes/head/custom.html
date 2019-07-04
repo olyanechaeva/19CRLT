@@ -11,4 +11,22 @@
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<script>
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[Meteoric Teachings] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Meteoric Teachings] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+
+</script>
 <!-- end custom head snippets -->
