@@ -14,20 +14,22 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
-
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin-ext');
 
-$serif: "Encode Sans Condensed", sans-serif !default;
+$serif: "Oswald", sans-serif !default;
 $sans-serif: "Montserrat", sans-serif !default;
 $monospace: Consolas, "Lucida Console", monospace !default;
 $meteor-logo-font: 'Bungee Inline', cursive !default;
+$sans-serif-narrow: 'PT Sans Narrow', sans-serif !default;
+
 $global-font-family: $sans-serif !default;
 $header-font-family: $serif !default;
 $caption-font-family: $sans-serif !default;
 
 /* sans serif typefaces */
-$sans-serif-narrow: $serif !default;
+
 /*
 $helvetica: Helvetica, "Helvetica Neue", sans-serif !default;
 */
