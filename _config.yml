@@ -110,8 +110,8 @@ author:
   avatar           : "/assets/static/avatar2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a full-stack developer interested in web, cloud and pokemon. "
   location         : "Delhi, India"
-  email            : "i@alokprateek.ml"
-  uri              : "https://alokprateek.ml"
+  email            : "i@alokprateek.in"
+  uri              : "https://alokprateek.in"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        : 
   codepen          : 
