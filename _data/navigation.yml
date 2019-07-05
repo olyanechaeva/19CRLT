@@ -2,8 +2,8 @@
 main:
   - title: "Development"
     url: /dev/
-  - title: "Hardware"
-    url: /hardware/
+  - title: "Work"
+    url: /work/
   - title: "Random"
     url: /random/
   - title: "About & Contact"
