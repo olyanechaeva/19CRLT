@@ -3,6 +3,8 @@ layout: single
 title: Privacy Policy
 permalink: /privacy/
 breadcrumbs: false
+header:
+  overlay_color: "#00488b"
 tags:
 
 ---

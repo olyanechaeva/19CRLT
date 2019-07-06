@@ -5,6 +5,6 @@ layout: category
 taxonomy: random
 entries_layout: list
 header:
-  overlay_image: /assets/static/random.jpg
+  overlay_color: "#111"
 
 ---

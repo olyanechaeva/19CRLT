@@ -3,6 +3,8 @@ layout: single
 title: Terms of Service
 permalink: /tandc/
 breadcrumbs: false
+header:
+  overlay_color: "#00488b"
 tags:
 
 ---
