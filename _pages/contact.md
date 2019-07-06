@@ -16,5 +16,4 @@ My current toolset includes React, Vue, TypeScript, PWA's, Express Framework and
 
 I also used to work on websites using PHP codebases and running on Apache/NGINX servers. I used popular framework Drupal and WordPress.
 
-
-Spotted any blooper? mail me at i@alokprateek.in
+Spotted any blooper? mail me at [i@alokprateek.in](mailto:i@alokprateek.in)
