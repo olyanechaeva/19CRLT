@@ -5,6 +5,8 @@ subtitle: Color Purple by Alice Walker
 
 ---
 
+A book review of The Color Purple by Alice Walker.
+
 ## First Period
 
 In The Color Purple, the story is told through letters. The only sentences outside the letters are the first two: “You better not never tell nobody but God. It'd kill your mammy.” Silenced forever, the main character, fourteen year old Celie, writes letters to God. Her father has raped her, and she has two children, a girl and a boy, whom “Pa” took away from her. Celie's mother has died and Pa is looking too much at her little sister, Nettie.
