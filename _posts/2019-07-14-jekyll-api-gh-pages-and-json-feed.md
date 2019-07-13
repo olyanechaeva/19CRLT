@@ -2,6 +2,8 @@
 layout: single
 title: Blog API on Github Pages
 subtitle: Jekyll API + Github Pages + JSON Feed
+classes: wide
+category: development
 
 ---
 
