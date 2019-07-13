@@ -12,13 +12,10 @@ layout: none
     "favicon": "{{ site.url }}/favicon.ico",
     "expired": false,
     "items": [
-
 {% for post in site.posts limit: page.limit %}
-    
     {
       "title": "{{ post.title }}",
       "date"     : "{{ post.date | date: "%B %d, %Y" }}",
-
       "excerpt" : "{{ post.excerpt }}",
       {% if post.categories %} "categories"  : [
         {% for category in post.categories %} "{{ category }}"
@@ -37,10 +34,7 @@ layout: none
       {% if post.tags == nil %} "tags"  : []  {% endif %}
 
     }
-
     {% unless forloop.last %},{% endunless %}
-
 {% endfor %}
-
     ]
 }
