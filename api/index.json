@@ -10,6 +10,11 @@ layout: none
     "feed_url": "{{ site.url }}/api/index.json",
     "icon": "{{ site.url }}/assets/favicon/android-chrome-192x192.png",
     "favicon": "{{ site.url }}/favicon.ico",
+    "author": {
+        "name": "{{ site.author }}",
+        "url": "https://alokprateek.in/",
+        "avatar": "https://alokprateek.in/avatar3.jpg"
+    },
     "expired": false,
     "items": [
 {% for post in site.posts limit: page.limit %}
