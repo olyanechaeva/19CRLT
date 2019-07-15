@@ -1,6 +1,6 @@
 <!-- start custom head snippets -->
 <meta name="theme-color" content="#4b0966" /><!--#f74770-->
-<link rel="manifest" type="application/manifest+json" href="manifest.json">
+<link rel="manifest" type="application/manifest+json" href="{{ site.baseurl }}/manifest.json">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=3">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=3">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?v=3">
@@ -22,7 +22,7 @@ if ("serviceWorker" in navigator) {
   } else {
     // Register the service worker
     navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
+      .register("{{ site.baseurl }}/pwabuilder-sw.js", {
         scope: "./"
       })
       .then(function (reg) {
