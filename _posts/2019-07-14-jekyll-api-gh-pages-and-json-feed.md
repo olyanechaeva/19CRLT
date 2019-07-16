@@ -38,9 +38,7 @@ Now let's try with a more practical example. What if you want to get the JSON ou
          "title": {{ post.title | smartify | jsonify }},
          "content_html": {{ post.content | jsonify }},
          "url": "{{ site.url }}{{ post.url }}",
-            
          "summary": {% if post.url contains "/blog/" %}{{ post.excerpt | smartify | jsonify }}{% else %}{{ post.description | smartify | jsonify }}{% endif %},
-         
          "date_published": "{{ post.date }}",
          {% if post.categories %} "categories"  : [
                 {% for category in post.categories %} "{{ category }}"
@@ -49,7 +47,6 @@ Now let's try with a more practical example. What if you want to get the JSON ou
                 ],
          {% endif %}
          {% if post.categories == nil %} "categories"  : [],  {% endif %}
-         
          {% if post.tags %} "tags"  : [
                 {% for tag in post.tags %} "{{ tag }}"
                 {% if forloop.last %}{% else %},{% endif %}
@@ -57,13 +54,11 @@ Now let's try with a more practical example. What if you want to get the JSON ou
                 ]
          {% endif %}
          {% if post.tags == nil %} "tags"  : []  {% endif %}
-    
     }{% unless forloop.last == true %},{% endunless %}
 {% endfor %}
 
 
 ```
-
 
 We have looped through all `site.posts` and created a JSON object with each post data separating the objects with a comma. After building your website, Jekyll will take care of parsing the YAML and Liquid data and outputting `output.json` with your posts data in the JSON format.
 
@@ -73,11 +68,9 @@ If you use use github pages go to your blog link `/output.json` and see the resu
 
 The `limit` meta in the front matter controls the number of posts to output as `JSON`.
 
-
 ### Using the output as API
 
 It's simple! Place the `output.json` under a new folder called `api` and rename it `index.json`.
-
 
 ### Making this API as JSON feed
 
